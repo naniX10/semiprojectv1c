@@ -6,21 +6,6 @@
 		location.href='/mvc/login'
 	</script>
 </c:if>
-<style>
-    #boardfrm { width: 600px; margin: 0 auto; padding-top: 50px }
-    #boardfrm div { margin-bottom: 10px }
-    #boardfrm label { display: inline-block; text-align: right; 
-    				width: 125px; font-weight: bold; font-size: 14px }
-    #contents { display: inline-block; width: 450px; height:150px }
-    /* div:nth-child(3) > label { vertical-align: top; }
-    이거는 크롤링? 하기 어렵고 밑에껀 쉽다는 듯? */
-    .dragup { vertical-align: top; }				
-    input, button { padding: 3px }
-    input { width: 400px }
-    button { margin-left: 10px; width: 100px }
-</style>
-
-
 
 <h2>게시판 - 글쓰기</h2>
 <form name = "boardfrm" id = "boardfrm">
