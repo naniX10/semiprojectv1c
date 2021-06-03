@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+<!-- -->
+#joinfrm { width: 300px; margin: 100px auto; }
+#joinfrm div { margin-bottom: 10px; }
+#joinfrm label { display: inline-block; width: 110px; text-align: right;
+              font-weight : bold; } /* */
+#joinfrm input, #joinfrm button { padding: 5px }
+#joinfrm input { width: 150px }
+<!-- -->
+#loginfrm { width: 300px; margin: 100px auto; }
+#loginfrm div {margin-bottom: 5px}
+#loginfrm label { display: inline-block; text-align: right; width: 90px;
+               font-weight: bold; font-size: 14px }
+#loginfrm input, #loginfrm button { padding: 3px }
+#loginfrm input { width: 125px }
+#loginfrm button { margin-left: 95px; width: 60px }
+<!-- -->
+table { width: 75%; margin: 0 auto; border-collapse: collapse;
+        table-layout: fixed}
+ th, td { border: 1px solid black; text-align: center; padding: 10px }
+td:nth-child(2) { white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+#listtab button { padding: 5px; width: 100px; margin-right: -10px }
+#listtab .newbtn { text-align: right; border: none; }
+#listtab .tbnav { border: none; }
+#listtab .cpage { font-weight: bold; color: yellow; font-size: 25px}
+<!-- -->
+#view { width: 600px; margin: 0 auto; padding-top: 50px  }
+#view div { margin-bottom: 20px }
+#view div:first-child { margin-bottom: 25px }
+#view label { display: inline-block; text-align: right; 
+				width: 125px; font-weight: bold; font-size: 14px }
+#view div span { border : 1px solid aqua; padding: 5px; }				
+#view .contents { display: inline-block; width: 450px; height:350px; }
+#view .dragup { vertical-align: top; }
+<!-- -->
+#boardfrm { width: 600px; margin: 0 auto; padding-top: 50px }
+#boardfrm div { margin-bottom: 10px }
+#boardfrm label { display: inline-block; text-align: right; 
+				width: 125px; font-weight: bold; font-size: 14px }
+#contents { display: inline-block; width: 450px; height:150px }
+/* div:nth-child(3) > label { vertical-align: top; }
+이거는 크롤링? 하기 어렵고 밑에껀 쉽다는 듯? */
+.dragup { vertical-align: top; }				
+#boardfrm input, #boardfrm button { padding: 3px }
+#boardfrm input { width: 400px }
+#boardfrm button { margin-left: 10px; width: 100px }
+
