@@ -57,7 +57,7 @@
 				alert('내용 없음?');
 			} else {
 				frm.method = 'post';
-				frm.action = 'writeok.jsp';
+				frm.action = '/mvc/board/write';
 				frm.submit();
 			}
 		}
