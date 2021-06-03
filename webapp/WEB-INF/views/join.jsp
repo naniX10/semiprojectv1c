@@ -45,7 +45,7 @@
         		else if (frm.email.value == '')
         			alert('설마 이메일 없는거야....??');
         		else {
-        			frm.action = 'joinok.jsp';
+        			frm.action = '/mvc/join';
         			frm.submit();
         		}
         	}
