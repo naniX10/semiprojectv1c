@@ -45,4 +45,10 @@ td:nth-child(2) { white-space: nowrap; overflow: hidden; text-overflow: ellipsis
 #boardfrm input, #boardfrm button { padding: 3px }
 #boardfrm input { width: 400px }
 #boardfrm button { margin-left: 10px; width: 100px }
+<!-- -->
+#myinfo { width: 300px; margin: 125px auto }
+#myinfo div { padding-bottom: 5px }
+#myinfo .label { display: inline-block; width: 120px; text-align: right;
+    font-weight: bold; padding-right: 7px }
+
 
